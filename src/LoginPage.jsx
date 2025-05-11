@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css'; // You might want a specific CSS file for LoginPage later
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
 // Helper function to generate CAPTCHA string
 const generateCaptcha = (length = 6) => {
